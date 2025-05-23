@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Chess Game</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div id="game">
+            <!-- rank 8 -->
+            <div class="cellprefix">8</div>
+            <div class="gamecell" id="a_8"></div>
+            <div class="gamecell gray" id="b_8"></div>
+            <div class="gamecell" id="c_8"></div>
+            <div class="gamecell gray" id="d_8"></div>
+            <div class="gamecell" id="e_8"></div>
+            <div class="gamecell gray" id="f_8"></div>
+            <div class="gamecell" id="g_8"></div>
+            <div class="gamecell gray" id="h_8"></div><br>
+            <!-- rank 7 -->
+            <div class="cellprefix">7</div>
+            <div class="gamecell" id="a_7"></div>
+            <div class="gamecell gray" id="b_7"></div>
+            <div class="gamecell" id="c_7"></div>
+            <div class="gamecell gray" id="d_7"></div>
+            <div class="gamecell" id="e_7"></div>
+            <div class="gamecell gray" id="f_7"></div>
+            <div class="gamecell" id="g_7"></div>
+            <div class="gamecell gray" id="h_7"></div><br>
+            <!-- rank 6 -->
+            <div class="cellprefix">6</div>
+            <div class="gamecell" id="a_6"></div>
+            <div class="gamecell gray" id="b_6"></div>
+            <div class="gamecell" id="c_6"></div>
+            <div class="gamecell gray" id="d_6"></div>
+            <div class="gamecell" id="e_6"></div>
+            <div class="gamecell gray" id="f_6"></div>
+            <div class="gamecell" id="g_6"></div>
+            <div class="gamecell gray" id="h_6"></div><br>
+            <!-- rank 5 -->
+            <div class="cellprefix">5</div>
+            <div class="gamecell" id="a_5"></div>
+            <div class="gamecell gray" id="b_5"></div>
+            <div class="gamecell" id="c_5"></div>
+            <div class="gamecell gray" id="d_5"></div>
+            <div class="gamecell" id="e_5"></div>
+            <div class="gamecell gray" id="f_5"></div>
+            <div class="gamecell" id="g_5"></div>
+            <div class="gamecell gray" id="h_5"></div><br>
+            <!-- rank 4 -->
+            <div class="cellprefix">4</div>
+            <div class="gamecell" id="a_4"></div>
+            <div class="gamecell gray" id="b_4"></div>
+            <div class="gamecell" id="c_4"></div>
+            <div class="gamecell gray" id="d_4"></div>
+            <div class="gamecell" id="e_4"></div>
+            <div class="gamecell gray" id="f_4"></div>
+            <div class="gamecell" id="g_4"></div>
+            <div class="gamecell gray" id="h_4"></div><br>
+            <!-- rank 3 -->
+            <div class="cellprefix">3</div>
+            <div class="gamecell" id="a_3"></div>
+            <div class="gamecell gray" id="b_3"></div>
+            <div class="gamecell" id="c_3"></div>
+            <div class="gamecell gray" id="d_3"></div>
+            <div class="gamecell" id="e_3"></div>
+            <div class="gamecell gray" id="f_3"></div>
+            <div class="gamecell" id="g_3"></div>
+            <div class="gamecell gray" id="h_3"></div><br>
+            <!-- rank 2 -->
+            <div class="cellprefix">2</div>
+            <div class="gamecell" id="a_2"></div>
+            <div class="gamecell gray" id="b_2"></div>
+            <div class="gamecell" id="c_2"></div>
+            <div class="gamecell gray" id="d_2"></div>
+            <div class="gamecell" id="e_2"></div>
+            <div class="gamecell gray" id="f_2"></div>
+            <div class="gamecell" id="g_2"></div>
+            <div class="gamecell gray" id="h_2"></div><br>
+            <!-- rank 1 -->
+            <div class="cellprefix">1</div>
+            <div class="gamecell" id="a_1"></div>
+            <div class="gamecell gray" id="b_1"></div>
+            <div class="gamecell" id="c_1"></div>
+            <div class="gamecell gray" id="d_1"></div>
+            <div class="gamecell" id="e_1"></div>
+            <div class="gamecell gray" id="f_1"></div>
+            <div class="gamecell" id="g_1"></div>
+            <div class="gamecell gray" id="h_1"></div><br>
+            <!-- rank (row) labels -->
+            <div class="cellprefix"></div>
+            <div class="cellprefix">a</div>
+            <div class="cellprefix">b</div>
+            <div class="cellprefix">c</div>
+            <div class="cellprefix">d</div>
+            <div class="cellprefix">e</div>
+            <div class="cellprefix">f</div>
+            <div class="cellprefix">g</div>
+            <div class="cellprefix">h</div><br>
+            <!-- turn label -->
+            <div id="turn">It's White's Turn!</div>
+        </div>
+        <!-- javascript -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    </body>
+</html>
