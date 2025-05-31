@@ -20,4 +20,11 @@ div * {
     height: 100%;
     position: relative;
     float: right;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-style: inset;
+    text-align: center;
+    padding: 5px 0 0 0;
+    background: #fff;
+    transition: .85s linear;
 }
